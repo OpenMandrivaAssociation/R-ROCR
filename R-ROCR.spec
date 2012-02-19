@@ -4,7 +4,7 @@
 Name:             R-%{packname}
 Version:          1.0_4
 Release:          1
-Summary:          Visualizing the performance of scoring classifiers.
+Summary:          Visualizing the performance of scoring classifiers
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
