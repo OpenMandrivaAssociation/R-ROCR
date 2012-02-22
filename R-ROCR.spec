@@ -11,8 +11,9 @@ URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-4.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-gplots R-methods 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-gplots R-methods
+Requires:         R-gplots R-methods
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-gplots R-methods
 
 %description
 ROC graphs, sensitivity/specificity curves, lift charts, and
