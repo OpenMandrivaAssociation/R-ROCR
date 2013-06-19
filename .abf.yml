@@ -1,2 +1,4 @@
+removed_sources:
+  ROCR_1.0-4.tar.gz: 4bca6d8bec6cb07f341e525b219dcfc21634ff74
 sources:
-  "ROCR_1.0-4.tar.gz:"	4bca6d8bec6cb07f341e525b219dcfc21634ff74
+  ROCR_1.0-5.tar.gz: 0ba3c6bffea3cc5aee6f9718c9c8db4a6eeda552

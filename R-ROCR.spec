@@ -2,18 +2,17 @@
 %global rlibdir  %{_datadir}/R/library
 
 Name:             R-%{packname}
-Version:          1.0_4
-Release:          2
+Version:          1.0_5
+Release:          1
 Summary:          Visualizing the performance of scoring classifiers
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-4.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.0-5.tar.gz
 BuildArch:        noarch
 Requires:         R-core
-Requires:         R-gplots R-methods
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex
-BuildRequires:    R-gplots R-methods
+Requires:         R-gplots R-methods 
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-gplots R-methods
 
 %description
 ROC graphs, sensitivity/specificity curves, lift charts, and
@@ -58,3 +57,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/demo
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Sun Feb 19 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0_4-1
++ Revision: 777441
+- Import R-ROCR
+- Import R-ROCR
+
